@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	DBD
-%define		pnam	LDAP
+%define	pdir	DBD
+%define	pnam	LDAP
 Summary:	DBD::LDAP - a DBI driver for LDAP databases
 Summary(pl):	DBD::LDAP - sterownik DBI do baz danych LDAP
 Name:		perl-DBD-LDAP

@@ -41,7 +41,7 @@ DBD::LDAP - sterownik DBI do baz danych LDAP.
 %patch0 -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 
 %{__make}
 

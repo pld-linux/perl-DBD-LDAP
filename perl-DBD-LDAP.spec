@@ -28,7 +28,7 @@ DBD::LDAP - sterownik DBI do baz danych LDAP.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

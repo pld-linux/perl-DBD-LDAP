@@ -1,0 +1,16 @@
+--- DBD-LDAP-0.05.orig/lib/JLdap.pm	Sun Jul 14 21:13:24 2002
++++ DBD-LDAP-0.05/lib/JLdap.pm	Sun Jul 14 21:13:38 2002
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl5
++#!/usr/bin/perl
+ 
+ package JLdap;
+ 
+#--- DBD-LDAP-0.05.orig/blib/lib/JLdap.pm	Sun Jul 14 21:13:30 2002
+#+++ DBD-LDAP-0.05/blib/lib/JLdap.pm	Sun Jul 14 21:13:53 2002
+#@@ -1,4 +1,4 @@
+#-#!/usr/local/bin/perl5
+#+#!/usr/bin/perl5
+# 
+# package JLdap;
+# 

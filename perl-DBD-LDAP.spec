@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	DBD
 %define		pnam	LDAP
-Summary:	DBD::LDAP Perl module
-Summary(cs):	Modul DBD::LDAP pro Perl
-Summary(da):	Perlmodul DBD::LDAP
-Summary(de):	DBD::LDAP Perl Modul
-Summary(es):	Módulo de Perl DBD::LDAP
-Summary(fr):	Module Perl DBD::LDAP
-Summary(it):	Modulo di Perl DBD::LDAP
-Summary(ja):	DBD::LDAP Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	DBD::LDAP ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul DBD::LDAP
-Summary(pl):	Modu³ Perla DBD::LDAP
-Summary(pt):	Módulo de Perl DBD::LDAP
-Summary(pt_BR):	Módulo Perl DBD::LDAP
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl DBD::LDAP
-Summary(sv):	DBD::LDAP Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl DBD::LDAP
-Summary(zh_CN):	DBD::LDAP Perl Ä£¿é
+Summary:	DBD::LDAP - a DBI driver for LDAP databases
+Summary(pl):	DBD::LDAP - sterownik DBI do baz danych LDAP
 Name:		perl-DBD-LDAP
 Version:	0.05
 Release:	5
@@ -43,7 +28,6 @@ DBD::LDAP - sterownik DBI do baz danych LDAP.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor 
-
 %{__make}
 
 %install

@@ -5,10 +5,11 @@ Summary:	DBD::LDAP perl module
 Summary(pl):	Modu³ perla DBD::LDAP
 Name:		perl-DBD-LDAP
 Version:	0.05
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Patch0:		%{name}-paths.patch
 BuildRequires:	perl-DBI >= 1.03
 BuildRequires:	perl-ldap >= 0.01
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -22,6 +23,7 @@ DBD::LDAP - sterownik DBI do baz danych LDAP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch0 -p1
 
 %build
 perl Makefile.PL

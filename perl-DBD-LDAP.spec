@@ -20,8 +20,8 @@ Summary(uk):	Модуль для Perl DBD::LDAP
 Summary(zh_CN):	DBD::LDAP Perl дё©И
 Name:		perl-DBD-LDAP
 Version:	0.05
-Release:	3
-License:	GPL or Artistic
+Release:	4
+License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch

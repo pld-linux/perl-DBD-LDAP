@@ -8,7 +8,7 @@ Version:	0.04
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-DBI >= 1.03
 BuildRequires:	perl-ldap >= 0.01
 BuildRequires:	rpm-perlprov >= 3.0.3-16

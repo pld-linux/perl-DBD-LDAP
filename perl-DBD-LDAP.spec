@@ -4,7 +4,7 @@
 Summary:	DBD::LDAP perl module
 Summary(pl):	Modu³ perla DBD::LDAP
 Name:		perl-DBD-LDAP
-Version:	0.04
+Version:	0.05
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl

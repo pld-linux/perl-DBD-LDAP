@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	LDAP
 Summary:	DBD::LDAP - a DBI driver for LDAP databases
-Summary(pl):	DBD::LDAP - sterownik DBI do baz danych LDAP
+Summary(pl.UTF-8):   DBD::LDAP - sterownik DBI do baz danych LDAP
 Name:		perl-DBD-LDAP
 Version:	0.07
 Release:	1
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DBD::LDAP - a DBI driver for LDAP databases.
 
-%description -l pl
+%description -l pl.UTF-8
 DBD::LDAP - sterownik DBI do baz danych LDAP.
 
 %prep

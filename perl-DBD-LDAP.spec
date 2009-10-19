@@ -8,13 +8,12 @@
 Summary:	DBD::LDAP - a DBI driver for LDAP databases
 Summary(pl.UTF-8):	DBD::LDAP - sterownik DBI do baz danych LDAP
 Name:		perl-DBD-LDAP
-Version:	0.09
+Version:	0.10
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/DBD/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e5692405746763771940a3a393d470aa
-Patch0:		%{name}-paths.patch
+# Source0-md5:	b0c82040cbb5b0cc91ccb639a14d717a
 URL:		http://search.cpan.org/dist/DBD-LDAP/
 BuildRequires:	perl-DBI >= 1.03
 BuildRequires:	perl-ldap >= 0.01
@@ -29,7 +28,6 @@ DBD::LDAP - sterownik DBI do baz danych LDAP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
